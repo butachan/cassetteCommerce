@@ -7,5 +7,6 @@ export default class extends Controller{
         increment(){
             this.count++;
             this.countTarget.innerHTML=this.count;
+            console.log('jello');
         }
 }
